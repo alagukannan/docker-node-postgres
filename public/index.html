@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Rock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>File Upload</h1>
+      <form id='form' action="/songs/upload_files" method="post" enctype="multipart/form-data">
+          <div class="input-group">
+              <label for='files'>Select file</label>
+              <input id='files' type="file" name="file">
+          </div>
+          <button class="submit-btn" type='submit'>Upload</button>
+      </form>
+  </div>
+  </body>
+</html>
